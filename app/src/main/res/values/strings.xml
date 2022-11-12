@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Student</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup">SIGNUP</string>
+    <string name="not_registered">NOT REGISTERED?</string>
+    <string name="login">LOGIN</string>
+    <string name="Fullname" />
+    <string name="fullname" />
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="textview">TextView</string>
+    <string name="welcome_you_are_logged_in">Welcome you are logged in!</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theme">Theme</string>
+    <string name="ebook">Ebook</string>
+    <string name="share">Share</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="the_vit_legacy">THE VIT LEGACY</string>
+    <string name="about_college">The VIT legacy, which started from Vellore Engineering College 35 years ago to four Universities in India, today, is a result of constant efforts to impart high quality of education. The Govt. of India has recognized VIT as No. 1 Private Institution for Innovation, ARIIA 2019, and the recent recognition, as an Institution of Eminence, has paved a way to focus more on research with international collaborations to move up in the global ranking and contribute in the capacity building of our nation.</string>
+    <string name="Departments" />
+    <string name="file_for_post">file_for_post</string>
+    <string name="motorq_coding_question">Motorq Coding Question</string>
+    <string name="dsa_using_java">DSA Using Java</string>
+    <string name="i_m_a_third_year_computer_science_specialization_in_gaming_and_technology_undergrad_student_at_vellore_instititue_of_technology_i_m_a_java_coder_and_developer">I\'m a Third Year Computer Science Specialization In Gaming And Technology Undergrad student at Vellore Instititue of Technology I\'m a Java coder and Developer</string>
+    <string name="i_m_a_third_year_computer_science_undergrad_student_at_vellore_instititue_of_technology_i_m_a_c_coder_and_developer">I\'m a Third Year Computer Science Undergrad student at Vellore Instititue of Technology I\'m a C++ coder and Developer</string>
+    <string name="github">GitHub</string>
+    <string-array name="theme">
+        <item> System Default</item>
+        <item> Dark </item>
+        <item> Light</item>
+    </string-array>
+
+</resources>

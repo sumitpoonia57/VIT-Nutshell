@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_ebook"
+        android:icon="@drawable/ic_book"
+        android:title="@string/ebook" />
+    <item
+        android:id="@+id/navigation_file"
+        android:icon="@drawable/ic_file"
+        android:title="File" />
+    <item android:id="@+id/navigation_theme"
+        android:icon="@drawable/ic_theme"
+        android:title="@string/theme" />
+    <item
+    android:id="@+id/navigation_upload"
+    android:icon="@drawable/ic_addfile"
+    android:title="Upload" />
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="RateUs" />
+
+    <item
+        android:id="@+id/navigation_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share"/>
+
+
+</menu>

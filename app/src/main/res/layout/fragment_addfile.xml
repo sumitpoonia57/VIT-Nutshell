@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".developersPage"
+
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/bungee_inline"
+                    android:text="Meet the Developers"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <!--    ANAND SONI-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp" >
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ic_anand" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Anand Soni"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/bungee_inline"
+                    android:textSize="22sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" >
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/linkedinAnand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="50dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="LinkedIN" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/githubAnand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/github"
+                        android:elevation="50dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/github" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_m_a_third_year_computer_science_undergrad_student_at_vellore_instititue_of_technology_i_m_a_c_coder_and_developer"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/comfortaa"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.09"
+                    android:lineSpacingExtra="7dp"
+                    android:layout_marginBottom="20dp" />
+
+                <View
+                    android:layout_width="370dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="center"
+                    android:requiresFadingEdge="horizontal"
+                    android:background="@color/lightGray"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp" />
+            </LinearLayout>
+
+            <!--    SUMIT POONIA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp" >
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="389dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ic_sumit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Sumit Poonia"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/bungee_inline"
+                    android:textSize="22sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" >
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/linkedinSumit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="50dp"
+                        android:layout_gravity="center" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/githubSumit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/github"
+                        android:elevation="50dp"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i_m_a_third_year_computer_science_specialization_in_gaming_and_technology_undergrad_student_at_vellore_instititue_of_technology_i_m_a_java_coder_and_developer"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/comfortaa"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.09"
+                    android:lineSpacingExtra="7dp"
+                    android:layout_marginBottom="20dp" />
+
+                <View
+                    android:layout_width="370dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="center"
+                    android:requiresFadingEdge="horizontal"
+                    android:background="@color/lightGray"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
